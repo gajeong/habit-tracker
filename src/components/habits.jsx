@@ -9,11 +9,21 @@ class Habits extends Component {
       { name: "Coding", count: 0 },
     ],
   };
+
+  handleIncrement = (habit) => {};
+  handleDecrement = (habit) => {};
+  handleDelete = (habit) => {};
   render() {
     return (
       <ul>
         {this.state.habits.map((habit) => (
-          <Habit habit={habit} />
+          <Habit
+            habit={habit}
+            key={habit.name}
+            onIncrement={this.handleIncrement}
+            onDecrement={this.handleDecrement}
+            onDelete={this.handleDelete}
+          />
         ))}
       </ul>
     );
