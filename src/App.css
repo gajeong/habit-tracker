@@ -36,3 +36,45 @@
     transform: rotate(360deg);
   }
 }
+button{
+  outline: none;
+  border: 0;
+  cursor: pointer;
+}
+.habit{
+  font-size: 2.5rem;
+  padding: 0.5rem;
+  list-style: none;
+}
+.habit-button{
+  font-size: 2.5rem;
+  margin: 0 0.1rem;
+  background-color: transparent;
+}
+
+.habit-count { 
+  border-radius: 50%;
+  color:white;
+  background-color: darkseagreen;
+  display: inline-block;
+  text-align: center;
+  font-size: 2rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  line-height: 2.5rem;
+  margin-left: 0.2rem;
+  margin-right: 0.5em;
+}
+.habit-button :hover{
+  opacity: 0.8;
+}
+.habit-increase, 
+.habit-decrease{
+  color:goldenrod
+}
+
+.habit-delete{
+  font-size: 2rem;
+  color: darkred;
+}
+
