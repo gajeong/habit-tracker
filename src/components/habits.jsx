@@ -24,6 +24,7 @@ class Habits extends Component {
             <Habit
               habit={habit}
               key={habit.name}
+              count = {habit.count}
               onIncrement={this.handleIncrement}
               onDecrement={this.handleDecrement}
               onDelete={this.handleDelete}
