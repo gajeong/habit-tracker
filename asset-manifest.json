@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/gajeong/habit-tracker/static/css/main.e6c13ad2.css",
+    "main.js": "/gajeong/habit-tracker/static/js/main.0f972474.js",
+    "index.html": "/gajeong/habit-tracker/index.html",
+    "main.e6c13ad2.css.map": "/gajeong/habit-tracker/static/css/main.e6c13ad2.css.map",
+    "main.0f972474.js.map": "/gajeong/habit-tracker/static/js/main.0f972474.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.0f972474.js"
+  ]
+}
